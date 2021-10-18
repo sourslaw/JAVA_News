@@ -1,8 +1,8 @@
 package com.technews.controller;
 
-import com.technews.Model.Comment;
-import com.technews.Model.Post;
-import com.technews.Model.User;
+import com.technews.model.Comment;
+import com.technews.model.Post;
+import com.technews.model.User;
 import com.technews.repository.CommentRepository;
 import com.technews.repository.PostRepository;
 import com.technews.repository.UserRepository;
@@ -29,6 +29,7 @@ public class HomePageController {
 
     @Autowired
     CommentRepository commentRepository;
+
     @GetMapping("/login")
     public String login(Model model, HttpServletRequest request) {
 
