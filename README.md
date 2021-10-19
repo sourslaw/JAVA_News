@@ -1,4 +1,6 @@
 # News . . .
+
+## Description
 - A JAVA web application which allows the user to post news links
 - Users are able to create posts, edit posts, delete posts, add comments, and upvote posts
 
