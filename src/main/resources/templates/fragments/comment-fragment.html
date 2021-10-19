@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title layout:title-pattern="$CONTENT_TITLE - $LAYOUT_TITLE">Just Tech News</title>
+  <title layout:title-pattern="$CONTENT_TITLE - $LAYOUT_TITLE">Bicycle Board</title>
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
@@ -14,9 +14,8 @@
 
 
     <li th:text="${comment.commentText}">
+      <span th:text="${#dates.format(post.postedAt, 'MM-dd-YY')}"></span>
     </li>
-
-
 
 
   </div>

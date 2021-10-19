@@ -3,7 +3,7 @@
 <head>
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
-  <title layout:title-pattern="$CONTENT_TITLE - $LAYOUT_TITLE">Just Tech News</title>
+  <title layout:title-pattern="$CONTENT_TITLE - $LAYOUT_TITLE">Bicycle Board</title>
   <link rel="stylesheet" href="/css/style.css">
 </head>
 <body>
@@ -73,7 +73,7 @@
     </div>
 
     <div th:if="${post.voteCount == 1}" class="meta">
-      [[${post.voteCount}]] point by [[${post.userName}]] on
+      [[${post.voteCount}]] &#128077; by [[${post.userName}]] on
       <span th:text="${#dates.format(post.postedAt, 'MM-dd-YY')}"></span>
 
       <a th:href="@{/post/{id}(id=${post.id})}" th:if="${post.comments.size() == 1}">[[${post.comments.size()}]]
@@ -82,7 +82,7 @@
         comments</a>
     </div>
     <div th:unless="${post.voteCount == 1}" class="meta">
-      [[${post.voteCount}]] points by [[${post.userName}]] on
+      [[${post.voteCount}]] &#128077; by [[${post.userName}]] on
       <span th:text="${#dates.format(post.postedAt, 'MM-dd-YY')}"></span>
       |
       <a th:href="@{/post/{id}(id=${post.id})}" th:if="${post.comments.size() == 1}">[[${post.comments.size()}]]

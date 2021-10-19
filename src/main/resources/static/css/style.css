@@ -12,7 +12,7 @@ body, html {
 
 a {
   text-decoration: none;
-  color: #225ca3;
+  color: #706677;
   font-weight: bold;
   transition: color .1s;
 }
@@ -152,7 +152,7 @@ main {
 }
 
 .comment:nth-child(odd) {
-  background-color: #fff5eb;
+  background-color: #d6cfcb;
 }
 
 .comment .meta {
