@@ -1,4 +1,6 @@
 # News . . .
+![alt text](assets/screenshot.gif)
+
 
 ## Description
 - A JAVA web application which allows the user to post news links
