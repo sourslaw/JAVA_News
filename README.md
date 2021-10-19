@@ -1,4 +1,6 @@
 # News . . .
+- A JAVA web application which allows the user to post news links
+- Users are able to create posts, edit posts, delete posts, add comments, and upvote posts
 
 ### Installation
 - The project is uploaded to [GitHub](https://github.com/) at the following repository: [here](https://github.com/sourslaw/JAVA_News)
